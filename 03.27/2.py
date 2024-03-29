@@ -1,0 +1,7 @@
+print("산수 퀴즈에 오신것을 환영 합니다.")
+X = int(input("2+5 = "))
+print(X==2+5)
+Y = int(input("7-6 = "))
+print(Y==7-6)
+F = int(input("2**3 = "))
+print(F==2**3)
