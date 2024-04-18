@@ -108,3 +108,65 @@ for i in range(number):
   t.fd(100)
   t.left(360/number)
 t.done()
+
+numstring = input("여러개 정수 입력 > ")
+print("-"*40)
+numstringlist = numstring.split()
+print(numstringlist)
+print("-"*40)
+
+import time
+
+for i in range(10,0,-1):
+  print(i)
+  time.sleep(1)
+print("발사!")
+
+number = int(input("원하는 단은 >>"))
+for i in range(1,10):
+  print(f"{number}*{i}=",number*i)
+
+  count = 90
+while count<=100:
+  print(f"hi{count:05d}")
+  count = count +1
+print("종료")
+
+total = 0 
+count = 1
+while count<11:
+  total= total+count
+  count=count+1
+print(total)
+
+password = ""
+while password != "1234":
+ password = input("암호를 입력하시오 >>")
+print("로그인 성공 ")
+
+import random
+
+t = 0
+n = 0 
+Q = random.randint(1,100)
+print("1부터 100 사이의 숫자를 맞추시오")
+
+while n != Q:
+ n = int(input("숫자를 입력하시오>>"))
+ t  = t+1
+ if n < Q:
+  print("더 크게 !")
+if n > Q:
+ print("더 작게 !")
+
+if n == Q:
+ print("정답입니다. 시도 횟수는 = ",t)
+
+ radius = 100
+
+a = 1
+while a <=3:
+  t.circle(radius)
+  t.fd(50)
+  radius = radius+50
+  a =a+1
