@@ -170,3 +170,13 @@ while a <=3:
   t.fd(50)
   radius = radius+50
   a =a+1
+
+  radius = 100
+k = 1
+while k<=6:
+  t.circle(radius)
+  t.left(60)
+  k = k+1
+
+  name = input("이름 입력>>")
+print(f"안녕하세요{name}님")
