@@ -68,3 +68,33 @@ print("안녕"+str(x))
 k = "안녕반갑다"
 print(k[0:2])
 
+print("소금물의 농도를 구하는 프로그램 입니다.")
+g = int(input("소금의 양은 몇 g 입니까?"))
+w = int(input("물의 양은 몇g 입니까?"))
+nongdo = g/(g+w)*100
+print(nongdo)
+
+print("안녕하세요")
+name = input("이름이 뭐예요?")
+print("만나서 반갑습니다."+name)
+print(name+"님, 이름의 길이는 다음과 같군요 : ",len(name))
+age = int(input("나이가 어떻게 돼요?"))
+print("내년에",(age+1),"되시는 군요")
+
+import turtle
+
+t= turtle.Turtle()
+t.shape("turtle")
+
+s= turtle.textinput("알림","이름을 입력하시오")
+t.write("안녕하세요"+s+"님")
+
+for a in range(4):
+  t.fd(100)
+  t.right(90)
+
+just = "도서관에서 보자"
+print("암호문",just[-1:-9:-1])
+
+print(3.141592*10.0*10.0)
+print((1/100)*1234)
