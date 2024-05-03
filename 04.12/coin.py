@@ -19,4 +19,3 @@ else:
   
 t1.circle(100)
 t1.stamp
-
