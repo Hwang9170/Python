@@ -11,3 +11,5 @@ def draw():
 for i in range(12):
   draw()
   t.right(30)
+
+  #2
